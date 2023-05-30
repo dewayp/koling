@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDnAWbUdoXmoKhargY90jjM6twSItsZPWQ"/>
+
 
     <application
         android:allowBackup="true"

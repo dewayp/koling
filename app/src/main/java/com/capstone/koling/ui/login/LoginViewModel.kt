@@ -3,7 +3,7 @@ package com.capstone.koling.ui.login
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.capstone.koling.Event
+import com.capstone.koling.utils.Event
 import com.capstone.koling.SessionModel
 import com.capstone.koling.SupportRepository
 import com.capstone.koling.service.response.LoginResponse

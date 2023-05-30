@@ -1,4 +1,4 @@
-package com.capstone.koling
+package com.capstone.koling.utils
 
 open class Event<out T>(private val content: T) {
 

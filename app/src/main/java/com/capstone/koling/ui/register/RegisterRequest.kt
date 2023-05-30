@@ -1,4 +1,4 @@
-package com.capstone.koling
+package com.capstone.koling.ui.register
 
 data class RegisterRequest(
     val name: String,

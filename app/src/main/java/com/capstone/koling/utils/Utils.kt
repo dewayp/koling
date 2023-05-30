@@ -1,4 +1,4 @@
-package com.dewatama.storyappsubmission.util
+package com.capstone.koling.utils
 
 import android.content.ContentResolver
 import android.content.Context

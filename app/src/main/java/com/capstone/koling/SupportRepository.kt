@@ -7,7 +7,8 @@ import androidx.lifecycle.asLiveData
 import com.capstone.koling.service.api.ApiService
 import com.capstone.koling.service.response.LoginResponse
 import com.capstone.koling.service.response.RegisterResponse
-import com.dewatama.storyappsubmission.util.SessionPreferences
+import com.capstone.koling.utils.Event
+import com.capstone.koling.utils.SessionPreferences
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

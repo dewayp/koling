@@ -1,4 +1,4 @@
-package com.capstone.koling
+package com.capstone.koling.ui.login
 
 data class LoginRequest(
     val email: String,

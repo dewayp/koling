@@ -1,9 +1,9 @@
-package com.dewatama.storyappsubmission.util
+package com.capstone.koling
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.capstone.koling.Injection
+import com.capstone.koling.utils.Injection
 import com.capstone.koling.ui.login.LoginViewModel
 import com.capstone.koling.SupportRepository
 
