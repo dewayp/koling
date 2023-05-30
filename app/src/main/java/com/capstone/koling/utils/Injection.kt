@@ -4,9 +4,10 @@ import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
+import com.capstone.koling.SessionPreferences
 import com.capstone.koling.SupportRepository
 import com.capstone.koling.service.api.ApiConfig
-import com.dewatama.storyappsubmission.util.SessionPreferences
+
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("token")
 

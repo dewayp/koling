@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
     tools:context=".ui.login.LoginActivity">
 
     <ImageView
         android:id="@+id/iv_login"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
         android:contentDescription="@string/title_login"
         app:layout_constraintBottom_toTopOf="@id/gl_horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/gl_horizontal2"
-        app:srcCompat="@drawable/bg_welcome" />
+        app:srcCompat="@drawable/koling" />
 
     <TextView
         android:id="@+id/tv_title"
@@ -126,6 +128,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tl_password" />
 
+
     <ProgressBar
         android:id="@+id/pb_login"
         style="?android:attr/progressBarStyle"
@@ -151,7 +154,7 @@
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/gl_horizontal2"
         android:layout_width="wrap_content"
-        android:layout_height="64dp"
+        android:layout_height="30dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintGuide_percent="0.1"
@@ -160,7 +163,7 @@
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/gl_vertical"
         android:layout_width="wrap_content"
-        android:layout_height="64dp"
+        android:layout_height="30dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintGuide_percent="0.5"

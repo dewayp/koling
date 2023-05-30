@@ -13,6 +13,7 @@ import com.capstone.koling.R
 import com.capstone.koling.SessionModel
 import com.capstone.koling.ViewModelFactory
 import com.capstone.koling.databinding.ActivityLoginBinding
+import com.capstone.koling.ui.register.RegisterActivity
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -43,6 +44,7 @@ class LoginActivity : AppCompatActivity() {
         val passwordEdit = ObjectAnimator.ofFloat(binding.tlPassword, View.ALPHA, 1f).setDuration(500)
         val login = ObjectAnimator.ofFloat(binding.btnLogin, View.ALPHA, 1f).setDuration(500)
 
+
         AnimatorSet().apply {
             playSequentially(title, message, email, emailEdit, password, passwordEdit, login)
             startDelay = 500
@@ -50,7 +52,9 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun setupAction() {
+
         binding.apply {
+
             btnLogin.setOnClickListener {
                 if (edtEmail.length() == 0 && edtPassword.length() == 0) {
                     edtEmail.error = getString(R.string.required_field)
@@ -63,6 +67,7 @@ class LoginActivity : AppCompatActivity() {
                     moveActivity()
                 }
             }
+
         }
     }
 
